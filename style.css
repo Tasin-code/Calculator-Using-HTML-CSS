@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgb(34, 27, 27);
+}
+
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 0 auto;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px ;
+    font-size: 50px;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    background-color: #00ffff;
+    color: #000;
+	font-size: 20px;
+}
+
+.btn-style{
+    background-color: #ffc0cb ;
+}
+
+.btn-color{
+    background-color: #adff1f;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+footer{
+    text-align: center;
+    color: blueviolet;
+}
